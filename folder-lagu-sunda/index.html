@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Lagu Sunda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Daftar Lagu Sunda</h1>
+    </header>
+    
+    <section id="song-list">
+        <div class="song-item">
+            <h3>Manuk Dadali</h3>
+            <button onclick="playSong('song/Manuk Dadali.mp3')">Putar</button>
+        </div>
+        <div class="song-item">
+            <h3>Bubuy Bulan</h3>
+            <button onclick="playSong('song/Bubuy Bulan.mp3')">Putar</button>
+        </div>
+        <!-- Tambahkan lagu lain dengan format yang sama -->
+    </section>
+
+    <footer>
+        <p>© 2024 Koleksi Lagu Sunda</p>
+    </footer>
+
+    <audio id="audio-player" controls hidden></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
